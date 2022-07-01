@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronómetro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="../cronometro/css/cronometro.css" rel="stylesheet">
+    <script src="../cronometro/js/cronometro.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="circle">
+            <div id="parar" class="parar">00:00</div>
+            <div class="buttons">
+                <div class="stop" onclick="para()"></div>
+                <div id="play" class="paused" onclick="empieza()"></div>
+            </div>
+        </div>
+        <div id="segundos" class="segundos"></div>
+    </main>
+</body>
+</html>
